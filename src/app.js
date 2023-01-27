@@ -3,8 +3,8 @@ const newFile = document.getElementById('new-file')
 const newImg= document.getElementById('new-img')
 const imagebar= document.getElementById('img-bar')
 
-const CLOUDINARY_URL='https://api.cloudinary.com/v1_1/dulqpyq3y/image/upload'
-const CLOUDINARY_UPLOAD_PRESET = 'uxydkhri';
+const CLOUDINARY_URL='https://api.cloudinary.com/v1_1/{userName}/image/upload'
+const CLOUDINARY_UPLOAD_PRESET = {present};
 
 
 newFile.addEventListener('change', async(e)=>{
